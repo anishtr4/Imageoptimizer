@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+body
+{
+	padding:0;
+	margin:0;
+}
+.ok
+{
+
+	width:400px;
+	height:200px;
+
+
+}
+</style>
+</head>
+
+<body>
+<div class="ok"><img src="250_1366.jpg" /></div>
+<div class="ok"><img src="750.jpg" /></div>
+
+</body>
+
+
+<div></div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="imageoptimizer.min.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+ 
+  $("img").imageoptim({
+    fillcrop        : 'fill',
+  });
+ });
+ 
+</script>
+</html>
