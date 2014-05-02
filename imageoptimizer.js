@@ -1,5 +1,5 @@
 
- // created bye anish
+ // created by anish
 (function ($) {
 
     $.fn.imageoptim = function (options) {
